@@ -1,0 +1,1295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Start nav bar */
+.navbar_header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
+.navbar_header .navbar_nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    border-bottom: solid 1px #FFFFFF80;
+
+
+}
+
+.navbar_header .navbar_nav .navbar_container {
+    display: flex;
+    width: 100%;
+    background-color:rgb(0 0 0 / 50%);
+    background-attachment: fixed;
+    position: fixed;
+
+    
+}
+
+
+.navbar_header .navbar_nav .navbar_container .logo {
+
+
+    height: 23.819px;
+    flex-shrink: 0;
+    margin-top: 35px;
+    margin-left: 8%;
+    margin-right: 43%;
+
+
+
+}
+
+.navbar_header .navbar_nav .navbar_container .login {
+
+    width: 125px;
+    height: 19px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #7E7E7E;
+    text-align: center;
+    font-family: Brandon Grotesque;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px;
+    margin-top: 25px;
+    /* 225% */
+
+}
+
+.navbar_header .navbar_nav .navbar_container .line1 {
+    width: 1.5px;
+    height: 28px;
+    margin-top: 35px;
+}
+
+.navbar_header .navbar_nav .navbar_container .signup {
+    width: 125px;
+    height: 19px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Brandon Grotesque;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px;
+    margin-top: 25px;
+    margin-right: 3%;
+    /* 225% */
+
+}
+
+
+.navbar_header .navbar_nav .navbar_container .ESP {
+    width: 35px;
+    height: 19px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #7E7E7E;
+    text-align: right;
+    font-family: Brandon Grotesque;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px;
+    margin-top: 25px;
+    margin-right: 4%;
+    /* 225% */
+
+
+}
+
+
+.navbar_header .navbar_nav .navbar_container .ENG {
+    width: 43px;
+    height: 19px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Brandon Grotesque;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px;
+    margin-top: 25px;
+    margin-right: 3%;
+
+    /* 225% */
+}
+
+.navbar_header .navbar_nav .navbar_container .line2 {
+    width: 1.5px;
+    height: 75px;
+    flex-shrink: 0;
+    column-gap: 900 px;
+    margin-top: 15px;
+    margin-right: 4%;
+
+}
+
+.navbar_header .navbar_nav .navbar_container .barmenu {
+    width: 45px;
+    height: 30px;
+    flex-shrink: 0;
+    margin-top: 35px;
+
+
+}
+
+/* End nav bar */
+
+/* Start upper part */
+
+.Upperpart {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 500px;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5%;
+    justify-items: start;
+    position: fixed;
+    padding-top: 25%;
+
+
+}
+
+.follow {
+    display: flex;
+    width: 88px;
+    height: 19px;
+    transform: rotate(90deg);
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #7E7E7E;
+    font-family: Brandon Grotesque;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    padding-left: 8%;
+    /* 225% */
+
+}
+
+.followline {
+    display: flex;
+    margin-left: 45px;
+    margin-top: 10px;
+    width: 2px;
+    height: 75px;
+    background: #7E7E7E;
+    flex-direction: column;
+    justify-content: left;
+    flex-shrink: 0;
+
+}
+
+.a {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: left;
+    flex-shrink: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+.b {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: right;
+    flex-shrink: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+
+
+}
+
+.c {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-shrink: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+.c {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-shrink: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+.d {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-shrink: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+.e {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-shrink: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+
+
+}
+
+
+.Center {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-content: baseline;
+    justify-content: right;
+    margin-top: 75%;
+    margin-bottom: 30%;
+}
+
+.Luxury {
+    color: #B4B7B7;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    /* 112.5% */
+}
+
+.Realstate {
+    color: #FFF;
+    font-family: PF Regal Display Pro;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    /* 56.25% */
+}
+
+.input2 {
+    display: flex;
+    flex-wrap: nowrap;
+
+    row-gap: 20%;
+    width: fit-content;
+    position: relative;
+    margin-top: 5%;
+
+}
+
+.inputprop {
+    background-color: transparent;
+    height: 100%;
+    width: 350px;
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    margin-top: 5%;
+    /* margin-left: 8%; */
+    padding: 2% 30%;
+
+
+
+}
+
+.arrowcita {
+    position: absolute;
+    left: 50px;
+    top: 60%;
+    transform: translate(0, -50);
+
+}
+
+.Zoom {
+    display: flex;
+    flex-wrap: nowrap;
+
+    column-gap: 40%;
+    width: fit-content;
+    position: relative;
+
+}
+
+.inputbudapest {
+
+    background-color: transparent;
+    height: 100%;
+    width: 550px;
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    margin-top: 30%;
+    margin-left: 8%;
+    padding: 2% 6%;
+
+
+
+}
+
+::placeholder {
+    display: flex;
+    width: 219px;
+    height: 19px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Brandon Grotesque;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px;
+    /* 225% */
+}
+
+.lupita {
+    position: absolute;
+    right: 5%;
+    top: 90%;
+    transform: translate(0, -50%);
+}
+
+
+
+
+/* Start gallery one */
+
+.galleryone {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding-bottom: 5%;
+
+
+}
+
+.gallery1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2%;
+
+}
+
+.image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+.England {
+    color: #FFF;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    /* 112.5% */
+    /* 150% */
+    /* 150% */
+
+}
+
+.Glasglow {
+    color: #FFF;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    /* 112.5% */
+}
+
+.image2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column: span 2;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.france1 {
+
+    color: #464547;
+    font-family: PF Regal Display Pro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    /* 150% */
+
+}
+
+.Marseille {
+    color: #000;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    /* 112.5% */
+}
+
+
+.image3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column: span 2;
+    overflow: hidden;
+    position: relative;
+}
+.idea1{
+    width: 100%;
+    background-color: #FFF;
+    position: absolute;
+    bottom: 0;
+
+}
+
+
+.text1 {
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    padding-left: 3%;
+    padding-right: 5%;
+}
+
+.World1 {
+    display: flex;
+    width: 689px;
+    height: 47px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #DF991B;
+    text-align: left;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    /* 112.5% */
+}
+
+.Sale1 {
+    display: flex;
+    width: 776px;
+    height: 99px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: left;
+    font-family: PF Regal Display Pro;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    margin-top: 2%;
+    /* 56.25% */
+}
+
+.buttons1 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-top: 23%;
+
+
+}
+
+/* End gallery one */
+
+/* Start gallery two */
+.gallery2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 10%;
+    height: fit-content;
+
+
+}
+
+.gallerytwo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2%;
+    height: fit-content;
+
+}
+
+
+.image4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column: span 2;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.france2 {
+    
+    color: #464547;
+    font-family: PF Regal Display Pro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    /* 150% */
+    /* 150% */
+
+}
+
+.Carcassone {
+    color: #FFF;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    /* 112.5% */
+}
+
+
+.image5 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column: span 2;
+    overflow: hidden;
+    position: relative;
+
+}
+.idea2{
+    width: 100%;
+    background-color: #FFF;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.Germany {
+    
+    color: #FFF;
+    font-family: PF Regal Display Pro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    /* 150% */
+
+}
+
+.Munich {
+    color: #FFF;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    /* 112.5% */
+}
+
+
+
+.image6 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Box2 {
+    height: fit-content;
+}
+
+.textos2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 3%;
+    padding-right: 5%;
+    height: fit-content;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+.World2 {
+    display: flex;
+    width: 689px;
+    height: 47px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #DF991B;
+    text-align: left;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    /* 112.5% */
+
+}
+
+.Sale2 {
+    display: flex;
+    width: 776px;
+    height: 99px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: left;
+    font-family: PF Regal Display Pro;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    margin-top: 2%;
+
+    /* 56.25% */
+}
+
+.paragraph {
+    color: #000;
+    font-family: PF Regal Display Pro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 330;
+    line-height: 45px;
+    /* margin-top: 8%;
+    margin-bottom: 2%; */
+    /* 150% */
+
+
+}
+
+.buttons2 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    /* column-gap: 8%;
+    margin-bottom: 1%; */
+
+}
+
+.prev2 {
+    display: flex;
+    align-items: center;
+    color: #B4B7B7;
+    font-family: PF Regal Display Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px;
+    background-color: transparent;
+    border: none;
+    /* 225% */
+}
+
+.prop2 {
+    color: #000;
+    text-align: center;
+    font-family: PF Regal Display Pro;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 1px solid #000;
+    padding: 5% 60%;
+    /* 150% */
+
+}
+
+.next2 {
+    display: flex;
+    align-items: center;
+    color: #DF991B;
+    font-family: PF Regal Display Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px;
+    background-color: transparent;
+    border: none;
+    /* 225% */
+
+}
+
+
+/* End gallery two */
+/* Start text3 */
+.text3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.LP {
+    display: flex;
+    justify-content: center;
+    color: #DF991B;
+    text-align: center;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    /* 112.5% */
+
+}
+
+.Develop {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    font-family: PF Regal Display Pro;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    margin-bottom: 5%;
+    /* 56.25% */
+}
+
+/* Start gallery 3 */
+
+
+.cuadricule {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19%, 1fr));
+    grid-gap: 4.5%;
+    justify-items: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.uno {
+
+    text-align: center;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.minitext {
+    color: #464547;
+    font-family: PF Regal Display Pro;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    /* 180% */
+}
+
+.minitext2 {
+    color: #000;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    /* 112.5% */
+}
+.two_text{
+    width: 100%;
+    background-color: #FFF;
+    position: absolute;
+    bottom: 0;
+
+}
+
+/* Start boxes */
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 10%;
+    height: fit-content;
+    margin-left: 5%;
+    column-gap: 5%;
+}
+
+.pink {
+    background-image: url(/IMG/fondo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    background-size: cover;
+    /* width: 20%; */
+    height: 100vh;
+    padding-left: 15%;
+    padding-top: 3%;
+
+
+}
+
+.pinktext {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 3%;
+    padding-right: 5%;
+    height: fit-content;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+
+}
+
+.services {
+    display: flex;
+    width: 490px;
+    height: 47px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #DF991B;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    /* 112.5% */
+}
+
+.curation {
+    display: flex;
+    width: fit-content;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-family: PF Regal Display Pro;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 65px;
+    margin-bottom: 3%;
+    /* 81.25% */
+}
+
+.paragraph3 {
+    color: #000;
+    font-family: PF Regal Display Pro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 330;
+    line-height: 45px;
+    margin-bottom: 4%;
+    /* margin-top: 8%;
+    margin-bottom: 2%; */
+    /* 150% */
+
+
+}
+
+.buttons3 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-top: 5%;
+    /* column-gap: 8%;
+    margin-bottom: 1%; */
+
+
+}
+
+/* End boxes */
+/* Start footer */
+/* Start float container  */
+
+.final {
+    margin-top: 5%;
+    background: black;
+    width: 100%;
+    height: 100vh10;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.float_container {
+    background: #26282B;
+    width: 80%;
+    height: 30%;
+    justify-self: center;
+    position: absolute;
+    top: 0;
+    margin-top: -7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.boxtext1 {
+    display: flex;
+    width: 490px;
+    height: 47px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #DF991B;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    padding-top: 2%;
+    padding-left: 7%;
+    /* 112.5% */
+}
+
+.boxtext2 {
+    display: flex;
+    width: 548px;
+    height: 137px;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: PF Regal Display Pro;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 65px;
+    padding-top: 2%;
+    padding-left: 7cqh;
+    /* 108.333% */
+}
+
+.textinput {
+    display: flex;
+    width: 96px;
+    height: 21px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Brandon Grotesque;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 100px;
+    padding-top: 4%;
+    padding-left: 7%;
+    /* 400% */
+}
+
+.mail {
+    display: flex;
+
+}
+
+.inputpropfinal {
+    background-color: transparent;
+    height: 100%;
+    width: 350px;
+    border-radius: 100px;
+    border: 1px solid #7E7E7E;
+    margin-top: 5%;
+    /* margin-left: 8%; */
+    padding: 2% 30%;
+
+}
+
+
+.submitbutton {
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    */
+}
+
+.submit {
+    color: #DF991B;
+    text-align: center;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px;
+    background-color: #26282B;
+    border-radius: 100px;
+    border: 1px solid #DF991B;
+    /* 150% */
+    display: flex;
+    width: 25%;
+    height: 32px;
+    flex-direction: column;
+    justify-content: right;
+    flex-shrink: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+
+}
+
+/* End float container */
+/* Start final botton container */
+.final2 {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.bottom_container {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 8%;
+    justify-content: center;
+    /* align-content: flex-end; */
+
+}
+
+.finalogo {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: left;
+    margin-top: 30%;
+    padding: 2% 10%;
+}
+
+.logof {
+    height: auto;
+    width: 3%;
+    flex-shrink: 0;
+    margin-top: 35px;
+    margin-left: 8%;
+    margin-right: 43%;
+    background-color: #DF991B;
+
+}
+
+.ftext1 {
+    color: #FFF;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 330;
+    line-height: 45px;
+
+}
+
+.ftext2 {
+    color: #FFF;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 330;
+    line-height: 45px;
+
+}
+
+.Citiesmain {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: flex-end;
+    justify-items: left;
+    margin-top: 30%;
+}
+
+.suites {
+    color: #B4B7B7;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px;
+    /* 150% */
+}
+
+.cities {
+    color: #B4B7B7;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px;
+    /* 150% */
+}
+
+.villas {
+    color: #B4B7B7;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px;
+    /* 150% */
+}
+
+.housesmain {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: flex-end;
+    justify-items: left;
+    margin-top: 30%;
+    margin-right: 4%;
+}
+
+.houses {
+    color: #FFF;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px;
+    /* 150% */
+}
+
+.apartments {
+    color: #B4B7B7;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px;
+}
+
+.Contact {
+    color: #B4B7B7;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px;
+    /* 150% */
+}
+
+.callmain {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: flex-end;
+    justify-items: right;
+    margin-top: 30%;
+}
+
+.callcenter {
+    color: #FFF;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px;
+
+    /* 150% */
+}
+
+
+.phone {
+    color: #FFF;
+    text-align: right;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    /* 112.5% */
+
+}
+
+.finalmail {
+    color: #B4B7B7;
+    text-align: right;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px;
+    /* 150% */
+}
+
+.nav_footer {
+    display: flex;
+    margin-top: 70%;
+    margin-bottom: 0;
+    flex-direction: column;
+    justify-content: left;
+    flex-shrink: 0;
+
+
+
+    /* justify-content: center;
+    width: fit-content; */
+}
+
+.navbar_footer {}
+
+.Copyright {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Brandon Grotesque;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 45px;
+
+    /* 225% */
+}

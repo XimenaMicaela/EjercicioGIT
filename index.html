@@ -1,22 +1,459 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
     <title>Proyecto</title>
+    <link rel="stylesheet" href="./CCS/styles.css" type="text/css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <img src="./IMG/LogoUL.png" alt="Logo UniqLuxury">
-            <div>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+
+    <header class="navbar_header">
+        <nav class="navbar_nav">
+            <div class="navbar_container">
+                <img src="./IMG/LogoUniqLuxury.png" alt="Logo UniqLuxury" class="logo">
+
+                <a href="#" class="login">LOG IN </a>
+                <img src="./IMG/Line1.png" alt="line1" class="line1">
+                <a href="#" class="signup">SIGN UP</a>
+                <a href="#" class="ESP">ESP</a>
+                <a href="#" class="ENG">ENG</a>
+                <img src="./IMG/Line2.png" alt="Line2" class="line2">
+                <img src="./IMG/barmenu.png" alt="Bar menu" class="barmenu">
+                <!-- <img src="./IMG/black.png" alt="LUniluxuryHouse" class="black"> -->
+
             </div>
+
+
+
         </nav>
+        <section class="Upperpart">
+            <div class="sidebar">
+                <span class="follow">Follow</span>
+                <img src="./IMG/Followline.png" alt="LUniluxuryHouse" class="followline">
+
+
+                <a href="#" class="a"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15"
+                        fill="none">
+                        <path
+                            d="M0.72931 4.96703L3.8392 4.96703L3.8392 14.967H0.72931L0.72931 4.96703ZM2.27876 0C3.27876 0 4.08096 0.802198 4.08096 1.8022C4.08096 2.8022 3.27876 3.6044 2.27876 3.6044C1.27876 3.6044 0.476563 2.79121 0.476563 1.8022C0.476563 0.813187 1.27876 0 2.27876 0Z"
+                            fill="#7E7E7E" />
+                        <path
+                            d="M5.78455 4.9671L8.76257 4.9671V6.32974H8.80653C9.22411 5.53853 10.2351 4.71436 11.7516 4.71436C14.8944 4.71436 15.4769 6.78029 15.4769 9.4726L15.4769 14.9561H12.367L12.367 10.099C12.367 8.93414 12.345 7.45062 10.7516 7.45062C9.15818 7.45062 8.88345 8.71436 8.88345 10.022L8.88345 14.9671H5.77356L5.77356 4.9671H5.78455Z"
+                            fill="#7E7E7E" />
+                    </svg> </a>
+                <a href="#" class="b"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="14" viewBox="0 0 17 14"
+                        fill="none">
+                        <path
+                            d="M16.5242 1.69534C15.9942 1.94252 15.4142 2.0867 14.8542 2.18969C15.1242 2.1382 15.5142 1.64385 15.6742 1.43787C15.9142 1.1289 16.1142 0.778738 16.2342 0.397679C16.2442 0.366782 16.2642 0.325586 16.2342 0.304988C16.1942 0.294689 16.1742 0.304988 16.1442 0.304988C15.5142 0.655151 14.8542 0.902326 14.1642 1.08771C14.1042 1.098 14.0642 1.08771 14.0242 1.04651C13.9642 0.974418 13.9142 0.912624 13.8542 0.86113C13.5642 0.603657 13.2442 0.407978 12.8942 0.253494C12.4242 0.0578144 11.9242 -0.024577 11.4242 0.00631979C10.9342 0.0372165 10.4542 0.181401 10.0242 0.407977C9.59418 0.644853 9.20419 0.964119 8.89419 1.35548C8.57419 1.75714 8.34419 2.24118 8.22419 2.74583C8.10419 3.22988 8.11419 3.71393 8.18419 4.20828C8.19419 4.29067 8.18419 4.30097 8.11419 4.29067C5.39419 3.86841 3.13419 2.86942 1.29419 0.716945C1.21419 0.624255 1.17419 0.624255 1.10419 0.716945C0.304187 1.95281 0.694185 3.94051 1.69418 4.9189C1.82418 5.05279 1.96418 5.17638 2.11418 5.29996C2.06418 5.31026 1.39419 5.23817 0.794185 4.9189C0.714185 4.86741 0.674186 4.8983 0.664186 4.99099C0.664186 5.12488 0.664187 5.24847 0.684187 5.39265C0.834187 6.64912 1.68419 7.8129 2.83419 8.26605C2.97419 8.32784 3.12418 8.37934 3.27418 8.39994C3.01418 8.46173 2.74419 8.50293 1.98419 8.44113C1.89419 8.42053 1.85419 8.47203 1.89419 8.56472C2.46419 10.1611 3.68419 10.6348 4.60419 10.9026C4.72419 10.9232 4.85419 10.9232 4.97419 10.9541C4.97419 10.9644 4.96419 10.9644 4.95419 10.9747C4.65418 11.4484 3.59419 11.8089 3.10419 11.984C2.21419 12.3032 1.23419 12.4474 0.294185 12.3547C0.144185 12.3341 0.114186 12.3341 0.0741859 12.3547C0.0341859 12.3856 0.0741849 12.4165 0.114185 12.4577C0.304185 12.5916 0.504185 12.7049 0.704185 12.8182C1.30419 13.1477 1.93419 13.4052 2.58419 13.5906C5.96419 14.5484 9.76419 13.8481 12.3042 11.2527C14.2942 9.21355 14.9942 6.40195 14.9942 3.59034C14.9942 3.47705 15.1242 3.41526 15.1942 3.36377C15.7142 2.96211 16.1342 2.47806 16.5142 1.94252C16.6042 1.81893 16.6042 1.71594 16.6042 1.67474C16.6042 1.61295 16.6042 1.63355 16.5342 1.66445L16.5242 1.69534Z"
+                            fill="#7E7E7E" />
+                    </svg> </a>
+                <a href="#" class="c"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"
+                        fill="none">
+                        <path
+                            d="M7.5123 7.9765L7.8923 5.40675H5.4923V3.74156C5.4923 3.04258 5.8223 2.35389 6.9023 2.35389L7.9923 2.35389V0.174743C7.9923 0.174743 7.0123 0 6.0623 0C4.0923 0 2.8023 1.23348 2.8023 3.45374L2.8023 5.40675H0.612305L0.612305 7.9765H2.8023L2.8023 14H5.5023L5.5023 7.9765H7.5123Z"
+                            fill="#7E7E7E" />
+                    </svg> </a>
+                <a href="#" class="d"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15"
+                        fill="none">
+                        <path
+                            d="M8.07368 5.13623C6.77317 5.13623 5.7041 6.19428 5.7041 7.50581C5.7041 8.81735 6.76215 9.87539 8.07368 9.87539C9.38522 9.87539 10.4433 8.81735 10.4433 7.50581C10.4433 6.19428 9.38522 5.13623 8.07368 5.13623Z"
+                            fill="#7E7E7E" />
+                        <path
+                            d="M12.2727 0L3.7312 0C1.94574 0 0.501953 1.44379 0.501953 3.22924L0.501953 11.7708C0.501953 13.5562 1.94574 15 3.7312 15L12.2727 15C14.0582 15 15.502 13.5562 15.502 11.7708L15.502 3.22924C15.502 1.44379 14.0582 0 12.2727 0ZM8.06257 11.1976C6.02363 11.1976 4.37043 9.54445 4.37043 7.50551C4.37043 5.46657 6.02363 3.81337 8.06257 3.81337C10.1015 3.81337 11.7547 5.46657 11.7547 7.50551C11.7547 9.54445 10.1015 11.1976 8.06257 11.1976ZM11.9751 4.44159C11.4902 4.44159 11.0934 4.04482 11.0934 3.55988C11.0934 3.07494 11.4902 2.67818 11.9751 2.67818C12.4601 2.67818 12.8568 3.07494 12.8568 3.55988C12.8568 4.04482 12.4601 4.44159 11.9751 4.44159Z"
+                            fill="#7E7E7E" />
+                    </svg> </a>
+                <a href="#" class="e"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"
+                        fill="none">
+                        <path
+                            d="M11.7708 0H3.22924C1.44379 0 0 1.44379 0 3.22924V11.7708C0 13.5562 1.44379 15 3.22924 15H11.7708C13.5562 15 15 13.5562 15 11.7708V3.22924C15 1.44379 13.5562 0 11.7708 0ZM10.9111 7.92432L8.277 9.44526L5.64291 10.9662C5.32329 11.1536 4.92652 10.9221 4.92652 10.5474V4.46363C4.92652 4.08891 5.32329 3.86848 5.64291 4.04482L8.277 5.56576L10.9111 7.0867C11.2307 7.27406 11.2307 7.73696 10.9111 7.9133V7.92432Z"
+                            fill="#7E7E7E" />
+                    </svg></a>
+            </div>
+            <div class='Center'>
+                <span class="Luxury">Luxury</span>
+                <h1 class="Realstate">Real Estate</h1>
+                <div class="input2">
+                    <img src="/IMG/arrowcita.png" alt="Lupita" class="arrowcita">
+                    <input type="text" placeholder="View Properties" class="inputprop">
+
+
+
+                </div>
+
+            </div>
+            <div class='Villa'>
+
+                <div class="Zoom">
+                    <input type="text" placeholder="Ex.Villa Budapest" class="inputbudapest">
+                    <img src="/IMG/glass.png" alt="Lupita" class="lupita">
+
+                </div>
+            </div>
+
+
+        </section>
+
     </header>
-    
+
+    <section class="main">
+        <div class="galleryone">
+            <div class="gallery1">
+                <div class="image1">
+                    <img src="./IMG/image1.png" alt="Unknonw">
+
+
+                </div>
+                <div class="image2">
+
+                    <img src="./IMG/image2.png" alt="england-glasglow">
+                    <div class="idea1">
+                        <p class="England">England</p>
+                        <p class="Glasglow">Glasglow</p>
+
+                    </div>
+
+
+                </div>
+                <div class="image3">
+                    <img src="./IMG/image3.png" alt="france-marseille">
+                    <div class="idea1">
+                        <p class="france1">France</p>
+                        <p class="Marseille">Marseille</p>
+
+                    </div>
+
+                    
+                </div>
+
+            </div>
+            <div class="text1">
+                <div class="textos1">
+                    <h2 class="World1">
+                        Worldwide gallery
+
+                    </h2>
+                    <h3 class="Sale1">
+                        Properties for sale
+                    </h3>
+
+                </div>
+                <div class="buttons1">
+                    <button class="prev2"> <img src="/IMG/grayvector.jpg" alt="greyvector">
+                        Prev</button>
+                    <button class="prop2"> View all properties</button>
+                    <button class="next2">Next
+                        <img src="/IMG/orangevector.jpg" alt="orangevector">
+                    </button>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="gallery2">
+            <div class="Box2">
+                <div class="textos2">
+                    <h4 class="World2">
+                        Worldwide gallery
+
+                    </h4>
+                    <h5 class="Sale2">
+                        Properties for sale
+                    </h5>
+                    <p class="paragraph">In an ultimate jetsetter location or a forever home, our experts have the
+                        expertise
+                        it takes to knowledgeably advise you at every stage of the property cycle.
+
+                    </p>
+
+                </div>
+                <div class="buttons2">
+                    <button class="prev2"> <img src="/IMG/grayvector.jpg" alt="greyvector">
+                        Prev</button>
+                    <button class="prop2"> View all properties</button>
+                    <button class="next2">Next
+                        <img src="/IMG/orangevector.jpg" alt="orangevector">
+                    </button>
+
+
+
+                </div>
+
+            </div>
+            <div class="gallerytwo">
+                <div class="image4">
+                    <img src="./IMG/image4.png" alt="France-carcassone">
+                    <div class="idea2">
+                        <p class="france2">France</p>
+                        <p class="carcassone">Carcassone</p>
+
+                    </div>
+
+
+                </div>
+                <div class="image5">
+                    <img src="./IMG/image5.png" alt="Germany-Munich">
+                    <div class="idea2">
+                        <p class="Germany">Germany</p>
+                        <p class="Munich">Munich</p>
+
+                    </div>
+
+
+                </div>
+                <div class="image6">
+                    <img src="./IMG/image6.png" alt="fran-clo">
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="text3">
+            <div>
+                <h6 class="LP">Luxury Properties</h6>
+
+            </div>
+            <div>
+                <p class="Develop">Developments</p>
+            </div>
+        </div>
+        <div class="gallery3">
+            <div class="cuadricule">
+                <div class="uno">
+                    <img src="./IMG/1.jpg" alt="fran-clo">
+                    <div class="two_text">
+
+                        <p class="minitext">The Surf Row</p>
+                        <p class="minitext2"> Surfside</p>
+
+                    </div>
+
+                </div>
+                <div class="uno">
+                    <img src="./IMG/2.jpg" alt="fran-clo">
+                    <div class="two_text">
+                        <p class="minitext">Indigo </p>
+                        <p class="minitext2">Vero Beach</p>
+
+                    </div>
+
+                </div>
+                <div class="uno">
+                    <img src="./IMG/3.jpg" alt="fran-clo">
+                    <div class="two_text">
+                        <p class="minitext">Rosewood - Baha Mar</p>
+                        <p class="minitext2">Nassau, the Bahamas</p>
+
+
+                    </div>
+
+                </div>
+                <div class="uno">
+                    <img src="./IMG/4.jpg" alt="fran-clo">
+                    <div class="two_text">
+                        <p class="minitext">St. Regis - The Astor Tower</p>
+                        <p class="minitext2">Brickell, Miami</p>
+                    </div>
+
+                </div>
+                <div class="uno">
+                    <img src="./IMG/5.png" alt="fran-clo">
+                    <div class="two_text">
+                        <p class="minitext">Giralda Place</p>
+                        <p class="minitext2">Coral Gables</p>
+
+                    </div>
+                </div>
+                <div class="uno">
+                    <img src="./IMG/6.jpg" alt="fran-clo">
+                    <div class="two_text">
+                        <p class="minitext">St. Regis - The William Tower</p>
+                        <p class="minitext2">Brickell, Miami</p>
+
+
+                    </div>
+
+                </div>
+                <div class="uno">
+                    <img src="./IMG/7.jpg" alt="fran-clo">
+                    <div class="two_text">
+                        <p class="minitext">Solterre at Cockleshell Bay</p>
+                        <p class="minitext2"> St. Kitts and nevis</p>
+                    </div>
+
+                </div>
+                <div class="uno">
+                    <img src="./IMG/8.png" alt="fran-clo">
+                    <div class="two_text">
+                        <p class="minitext">Urbin</p>
+                        <p class="minitext2">Coconut Grove</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="boxes">
+            <div class="pink">
+                <img src="./IMG/picture.png" alt="picture">
+
+
+            </div>
+            <div class="boxpink">
+                <div class="pinktext">
+                    <figure class="group290">
+
+                        <img src="./IMG/Group 290.png" alt="">
+                    </figure>
+                    <span class="services">
+                        Services
+
+                    </span>
+                    <span class="curation">
+                        Part Curation & Interior Design
+                    </span>
+                    <p class="paragraph3">In an ultimate jetsetter location or a forever home, our experts have the
+                        expertise
+                        it takes to knowledgeably advise you at every stage of the property cycle.
+
+                    </p>
+
+                </div>
+                <div class="buttons3">
+                    <button class="prev2"> <img src="/IMG/grayvector.jpg" alt="greyvector">
+                        Prev</button>
+                    <button class="prop2"> Contact Us</button>
+                    <button class="next2">Next
+                        <img src="/IMG/orangevector.jpg" alt="orangevector">
+                    </button>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class="footer_final">
+        <section class="final">
+            <div class="float_container">
+                <div class="boxtext">
+                    <span class="boxtext1">
+                        Join the list
+                    </span>
+                    <span class="boxtext2">
+                        Unlock the exclusive world
+                    </span>
+
+                </div>
+                <div class="inputs">
+                    <span class="textinput">
+                        Name:
+                    </span>
+                    <div class="mail">
+                        <input type="text" placeholder="Ex. name@mail.com" class="inputpropfinal">
+                    </div>
+                    <div class="submitbutton">
+                        <button class="submit"> Submit</button>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="final2">
+                <div class="bottom_container">
+                    <div class="finalogo">
+                        <img src="./IMG/LogoUniqLuxury.png" alt="Logo UniqLuxury" class="logo">
+                        <span class="ftext1">
+                            Become a New Uniqe Artist
+                        </span>
+                        <span class="ftext2">Become a Commercial Partner</span>
+
+
+                    </div>
+                    <div class="Citiesmain">
+                        <span class="suites">
+                            Suites
+                        </span>
+                        <span class="cities">
+                            Cities
+                        </span>
+
+                        <span class="villas">
+                            Villas
+                        </span>
+
+
+                    </div>
+                    <nav class="nav_footer">
+                        <div class="navbar_footer">
+                            <span class="Copyright">Copyright © 2022</span>
+
+                        </div>
+
+
+                    </nav>
+                    <div class="housesmain">
+
+                        <span class="houses">
+                            Houses
+                        </span>
+                        <span class="apartments">
+                            Apartaments
+                        </span>
+
+                        <span class="Contact">
+                            Contact us
+                        </span>
+
+
+                    </div>
+                    <div class="callmain">
+                        <span class="callcenter">Call Center</span>
+                        <span class="phone">+52 55 6840 4000</span>
+                        <span class="finalmail">concierge@uniqluxury.com</span>
+
+                    </div>
+                    <!-- <nav class="nav_footer">
+                        <div class="navbar_footer">
+                            <span class="Copyright">Copyright © 2022</span>
+
+                        </div> -->
+
+
+                    </nav>
+
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+    </footer>
+
 </body>
+
 </html>
