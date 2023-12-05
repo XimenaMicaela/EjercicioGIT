@@ -1,0 +1,819 @@
+/* Start responsive mobile */
+#mobile {
+
+    position: absolute;
+    left: 2%;
+    top: 33.429px;
+    width: 45.351px;
+    height: 33.144px;
+    display: none;
+
+}
+
+.paragraph {
+    position: absolute;
+    left: 2%;
+    top: 1145px;
+    width: 320px;
+    height: 200px;
+    display: none;
+    right: 2%
+}
+
+.galmob {
+    display: none;
+}
+
+.paragraph3 {
+    position: absolute;
+    left: 2%;
+    top: 2340px;
+    width: 320px;
+    height: 200px;
+    display: none;
+    right: 2%;
+
+}
+
+.galmobtwo {
+    display: none;
+}
+
+.cuadriculemob {
+    display: none
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .logo {
+        display: none;
+        
+
+
+    }
+
+    #mobile {
+        display: block;
+
+    }
+
+    .login {
+        display: none;
+
+    }
+
+    .lineup {
+        display: none;
+    }
+
+    .signup {
+        display: none;
+
+    }
+
+    .ESP {
+        display: none;
+    }
+
+    .ENG {
+        display: none;
+    }
+
+    .line2 {
+        display: none;
+    }
+
+    .barmenu {
+        display: block;
+        width: 10%;
+        height: 7%;
+        flex-shrink: 0;
+        margin-top: 3%;
+        margin-left: 20%;
+
+        margin-bottom: 3%;
+        justify-content: center;
+    }
+
+    .navbar_container {
+        justify-self: end;
+
+    }
+
+    .sidebar {
+        display: none;
+
+    }
+
+    .navbar_header {
+        display: block;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/bacgroundcrop.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 320px;
+        height: 920px;
+
+
+    }
+
+    .Villa {
+        display: block;
+    }
+
+    .Center {
+        display: grid;
+        grid-template-rows: 1fr;
+        align-content: baseline;
+        justify-content: right;
+        margin-top: 75%;
+        margin-bottom: 30%;
+    }
+
+    .Luxury {
+        color: #B4B7B7;
+        font-family: PF Regal Display Pro;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 45px;
+        margin-top: 75%;
+        /* 112.5% */
+    }
+
+    .Realstate {
+        color: #FFF;
+        font-family: PF Regal Display Pro;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 45px;
+        /* 75% */
+        margin-top: 25%;
+        /* 56.25% */
+    }
+
+    .Zoom {
+
+        display: block;
+
+        /* column-gap: 40%; */
+        width: 320px;
+        position: relative;
+
+    }
+
+    .inputbudapest {
+
+        background-color: black;
+        height: 100%;
+        width: 320px;
+        border-radius: 100px;
+        border: 1px solid black;
+        margin-top: 30%;
+        margin-left: ;
+        padding: 2% 6%;
+
+
+
+    }
+
+    ::placeholder {
+        display: flex;
+        width: 219px;
+        height: 19px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Brandon Grotesque;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 390;
+        line-height: 45px;
+        /* 225% */
+    }
+
+    .lupita {
+        position: absolute;
+        right: 5%;
+        top: 90%;
+        transform: translate(0, -50%);
+    }
+
+    .World1 {
+        display: flex;
+        width: 689px;
+        height: 47px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #DF991B;
+        font-family: PF Regal Display Pro;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 45px;
+        /* 150% */
+
+        margin-top: 5%;
+
+        /* 112.5% */
+    }
+
+    .Sale1 {
+        display: flex;
+        width: 776px;
+        height: 99px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #000;
+        font-family: PF Regal Display Pro;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 60px;
+        /* 133.333% */
+        /* 133.333% */
+        margin-top: 2%;
+        /* 56.25% */
+    }
+
+
+    .input2 {
+        display: flex;
+        flex-wrap: nowrap;
+
+        row-gap: 20%;
+        width: fit-content;
+        position: relative;
+        margin-top: 5%;
+
+    }
+
+    .inputprop {
+        background-color: transparent;
+        height: 100%;
+        width: 315px;
+        border-radius: 100px;
+        border: 1px solid #FFF;
+        margin-top: 5%;
+        /* margin-left: 8%; */
+        padding: 2% 30%;
+
+
+
+    }
+
+    .arrowcita {
+        position: absolute;
+        left: 50px;
+        top: 60%;
+        transform: translate(0, -50);
+
+    }
+
+    .prev2 {
+        display: none;
+
+    }
+
+    .next2 {
+        display: none;
+    }
+
+    .prop2 {
+
+        color: #DF991B;
+        font-family: Brandon Grotesque;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 390;
+        line-height: 45px;
+        /* 180% */
+        background-color: transparent;
+        border-radius: 100px;
+        border: transparent;
+        padding: 5% 60%;
+        margin-top: 18%;
+        /* 150% */
+    }
+
+    .paragraph {
+        display: block;
+        color: #000;
+
+        font-family: Brandon Grotesque;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 30px;
+        /* 133.333% */
+        letter-spacing: -0.5px;
+
+
+    }
+
+    .galmob {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 1%;
+        margin-top: 8%;
+
+    }
+
+    .World2 {
+        display: flex;
+        width: 280px;
+        height: 47px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #DF991B;
+        font-family: PF Regal Display Pro;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 45px;
+
+        /* 150% */
+        /* 112.5% */
+
+    }
+
+    .Sale2 {
+        display: flex;
+        width: 776px;
+        height: 99px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #000;
+        font-family: PF Regal Display Pro;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 60px;
+        top: 5%;
+        /* 133.333% */
+        /* 133.333% */
+        /* 56.25% */
+    }
+
+    .paragraph2 {
+        display: none;
+        color: #000;
+        font-family: Brandon Grotesque;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 330;
+        line-height: 40px;
+
+
+
+    }
+
+    .paragraph3 {
+        display: block;
+        color: #000;
+        font-family: PF Regal Display Pro;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 330;
+        line-height: 45px;
+        margin-bottom: 4%;
+        /* margin-top: 8%;
+        margin-bottom: 2%; */
+        /* 150% */
+
+
+    }
+
+    .galmobtwo {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 2%;
+        height: fit-content;
+        left: 2%;
+
+    }
+
+    .LP {
+        color: #DF991B;
+        font-family: PF Regal Display Pro;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 45px;
+        /* 150% */
+    }
+
+    .Develop {
+        color: #000;
+        font-family: PF Regal Display Pro;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 60px;
+        /* 133.333% */
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .cuadricule {
+        display: none
+    }
+
+    .cuadriculemob {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-gap: 4.5%; */
+        justify-items: center;
+        align-items: center;
+        /* padding-left: 2%; */
+        /* padding-right: 2%; */
+    }
+
+    .uno {
+
+        text-align: center;
+        width: 320px;
+        height: auto;
+        position: relative;
+
+    }
+
+    .minitext {
+        color: #464547;
+        font-family: PF Regal Display Pro;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 45px;
+        /* 180% */
+    }
+
+    .minitext2 {
+        color: #000;
+        font-family: PF Regal Display Pro;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 45px;
+        /* 112.5% */
+    }
+
+    .two_text {
+        width: 100%;
+        background-color: #FFF;
+        position: absolute;
+        bottom: 0;
+
+    }
+
+    /* section3 */
+
+    .boxes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding-bottom: 10%;
+        height: fit-content;
+        margin-left: 5%;
+        column-gap: 5%;
+    }
+
+    .pink {
+        display: none;
+
+
+    }
+
+    .group290 {
+        width: 77px;
+        height: 77.425px;
+        flex-shrink: 0;
+    }
+
+    .pinktext {
+        display: grid;
+        grid-template-rows: 1fr;
+        gap: 7%;
+        /* padding-left: 3%; */
+        /* padding-right: 5%;
+        height: fit-content;
+        padding-bottom: 2%;
+        margin-bottom: 2%; */
+        width: 320px;
+
+    }
+
+    .services {
+        color: #DF991B;
+        font-family: PF Regal Display Pro;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 45px;
+        /* 150% */
+    }
+
+    .curation {
+        color: #000;
+        font-family: PF Regal Display Pro;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 45px;
+        /* 100% */
+
+    }
+
+    .paragraph4 {
+        display: block;
+        color: #000;
+        font-family: PF Regal Display Pro;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 330;
+        line-height: 25px;
+        width: 55%;
+        height: 7%;
+
+        padding-bottom: 8%;
+        margin-bottom: 5%;
+
+    }
+
+    .buttons3 {
+        display: none;
+    }
+
+    /* Final section */
+    .final {
+        margin-top: 5%;
+        background: black;
+        width: 100%;
+        height: 100vh10;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .float_container {
+        background: #26282B;
+        width: 80%;
+        height: fit-content;
+        justify-self: center;
+        position: absolute;
+        top: 0;
+        margin-top: -7%;
+        display: grid;
+        grid-template-columns: 1fr ;
+    
+    }
+    
+    .boxtext1 {
+        display: flex;
+        width: 280px;
+        height: 47px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #DF991B;
+        font-family: PF Regal Display Pro;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 45px;
+        padding-top: 2%;
+        padding-left: 7%;
+        /* 112.5% */
+    }
+    
+    .boxtext2 {
+        display: flex;
+        width: 280px;
+        height: 137px;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: PF Regal Display Pro;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 65px;
+        padding-top: 2%;
+        padding-left: 7cqh;
+        /* 108.333% */
+    }
+    
+    .textinput {
+        display: flex;
+        width: 280px;
+        height: 21px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Brandon Grotesque;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 390;
+        line-height: 100px;
+        padding-top: 4%;
+        padding-left: 7%;
+        /* 400% */
+    }
+    
+    .mail {
+        display: flex;
+    
+    }
+    
+    .inputpropfinal {
+        background-color: transparent;
+        height: 100%;
+        width: 60%;
+        border-radius: 100px;
+        border: 1px solid #7E7E7E;
+        justify-self: center;
+        margin-top: 5%;
+        margin-left: 5%;
+        /* margin-left: 8%; */
+        padding: 2% 30%;
+    
+    }
+
+    ::placeholder {
+        display: flex;
+        width: 219px;
+        height: 19px;
+        flex-direction: row;
+        justify-content: left;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Brandon Grotesque;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 390;
+        line-height: 45px;
+        /* 225% */
+    }
+    
+    
+    
+    .submitbutton {
+        display: flex;
+        margin-top: 3%;
+        justify-content: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        */
+    }
+    
+    .submit {
+        color: #DF991B;
+        text-align: center;
+        font-family: Brandon Grotesque;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 390;
+        line-height: 45px;
+        background-color: #26282B;
+        border-radius: 100px;
+        border: 1px solid #DF991B;
+        /* 150% */
+        display: flex;
+        width: 45%;
+        height: 32px;
+        flex-direction: column;
+        justify-content: right;
+        flex-shrink: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+        justify-content: center;
+    
+    }
+    
+    /* End float container */
+    /* Start final botton container */
+    .final2 {
+    
+        width: 280px;
+        height: 100vh;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 3%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+    .bottom_container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3%;
+        justify-content: center;
+      
+        /* align-content: flex-end; */
+    
+    }
+    
+    .finalogo {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        justify-content: left;
+        margin-top: 120%;
+        height: fit-content;
+        margin-left: 15%;
+        /* padding: 2% 5%;
+         */
+    }
+    
+    .logof {
+        height: 30%;
+        width: 160px;
+        flex-shrink: 0;
+        /* margin-top: 35px;
+        margin-left: 8%;
+        margin-right: 43%; */
+        background-color: transparent;
+    
+    }
+    
+    
+    .ftext1 {
+        color: #FFF;
+        font-family: PF Regal Display Pro;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 330;
+        line-height: 45px;
+    
+    }
+    
+    .ftext2 {
+        color: #FFF;
+        font-family: Brandon Grotesque;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 330;
+        line-height: 45px;
+    
+    }
+    
+    .Citiesmain {
+        display: none
+    }
+    
+    .housesmain {
+        display: none
+    }
+    
+    
+    
+    .callmain {
+        display: none
+    }
+   
+    
+    .nav_footer {
+        display: flex;
+        margin-top: 70%;
+        margin-bottom: 0;
+        flex-direction: column;
+        justify-content: left;
+        flex-shrink: 0;
+    
+    
+    
+        /* justify-content: center;
+        width: fit-content; */
+    }
+    
+    .navbar_footer {}
+    
+    .Copyright {
+    
+        color: #FFF;
+        text-align: center;
+        font-family: Brandon Grotesque;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: 45px;
+    
+        /* 225% */
+    }
+
+
+}   

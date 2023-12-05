@@ -11,7 +11,7 @@
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 
 
@@ -29,11 +29,11 @@
 .navbar_header .navbar_nav .navbar_container {
     display: flex;
     width: 100%;
-    background-color:rgb(0 0 0 / 50%);
+    background-color: rgb(0 0 0 / 50%);
     background-attachment: fixed;
     position: fixed;
 
-    
+
 }
 
 
@@ -401,7 +401,8 @@
 .gallery1 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 2%;
+    gap: 1%;
+
 
 }
 
@@ -434,6 +435,16 @@
     font-weight: 500;
     line-height: 45px;
     /* 112.5% */
+}
+
+.idea4 {
+    width: 100%;
+    background-color: darkgreen;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+
 }
 
 .image2 {
@@ -477,11 +488,14 @@
     overflow: hidden;
     position: relative;
 }
-.idea1{
+
+.idea1 {
     width: 100%;
     background-color: #FFF;
     position: absolute;
     bottom: 0;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
 
 }
 
@@ -539,6 +553,7 @@
 
 }
 
+
 /* End gallery one */
 
 /* Start gallery two */
@@ -573,7 +588,7 @@
 
 
 .france2 {
-    
+
     color: #464547;
     font-family: PF Regal Display Pro;
     font-size: 30px;
@@ -581,12 +596,11 @@
     font-weight: 400;
     line-height: 45px;
     /* 150% */
-    /* 150% */
 
 }
 
 .Carcassone {
-    color: #FFF;
+    color: #000;
     font-family: PF Regal Display Pro;
     font-size: 40px;
     font-style: normal;
@@ -605,7 +619,8 @@
     position: relative;
 
 }
-.idea2{
+
+.idea2 {
     width: 100%;
     background-color: #FFF;
     position: absolute;
@@ -614,7 +629,7 @@
 }
 
 .Germany {
-    
+
     color: #FFF;
     font-family: PF Regal Display Pro;
     font-size: 30px;
@@ -635,6 +650,13 @@
     /* 112.5% */
 }
 
+.ideatransparent {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+
+}
 
 
 .image6 {
@@ -695,19 +717,22 @@
     /* 56.25% */
 }
 
-.paragraph {
+
+.paragraph2 {
     color: #000;
     font-family: PF Regal Display Pro;
     font-size: 30px;
     font-style: normal;
     font-weight: 330;
     line-height: 45px;
+    margin-bottom: 4%;
     /* margin-top: 8%;
     margin-bottom: 2%; */
     /* 150% */
 
 
 }
+
 
 .buttons2 {
 
@@ -820,6 +845,7 @@
     width: auto;
     height: auto;
     position: relative;
+    
 }
 
 .minitext {
@@ -841,13 +867,16 @@
     line-height: 45px;
     /* 112.5% */
 }
-.two_text{
+
+.two_text {
     width: 100%;
     background-color: #FFF;
     position: absolute;
     bottom: 0;
 
 }
+
+/* End gallery 3 */
 
 /* Start boxes */
 .boxes {
@@ -919,7 +948,7 @@
     /* 81.25% */
 }
 
-.paragraph3 {
+.paragraph4 {
     color: #000;
     font-family: PF Regal Display Pro;
     font-size: 30px;
