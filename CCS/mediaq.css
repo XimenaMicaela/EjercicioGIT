@@ -1,3 +1,55 @@
-@media screen  and (max-width: px){
+@media screen  and (max-width: 1024px){
+    .sidebar{
+        display: none;
+    }
+    .World1 {
+        display: flex;
+        width: 120px;
+        height: 47px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #DF991B;
+        text-align: left;
+        font-family: PF Regal Display Pro;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 45px;
+        /* 112.5% */
+    }
+    .inputbudapest {
+
+        background-color: white;
+        height: 100%;
+        width: 200px;
+        border-radius: 100px;
+        border: 1px solid #FFF;
+        /* margin-top: 30%; */
+        /* margin-left: 8%; */
+        /* padding: 2% 6%; */
+    
+    
+    
+    }
+    
+    ::placeholder {
+        display: flex;
+        width: 219px;
+        height: 19px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Brandon Grotesque;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 390;
+        line-height: 45px;
+        /* 225% */
+    }
+    .Villa{
+        align-items: start;
+    }
     
 }

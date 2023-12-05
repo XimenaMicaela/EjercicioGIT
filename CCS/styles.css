@@ -575,6 +575,12 @@
     height: fit-content;
 
 }
+.gallerytwo:hover{ 
+    cursor:pointer
+}
+.gallery1:hover{
+    cursor:pointer
+}
 
 
 .image4 {
@@ -655,6 +661,7 @@
     background-color: transparent;
     position: absolute;
     bottom: 0;
+    transition: 0.3s ease;
 
 }
 
