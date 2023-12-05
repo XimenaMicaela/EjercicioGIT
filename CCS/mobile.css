@@ -173,7 +173,7 @@
         border-radius: 100px;
         border: 1px solid black;
         margin-top: 30%;
-        margin-left: ;
+        margin-left:15% ;
         padding: 2% 6%;
 
 
@@ -675,8 +675,7 @@
         margin-top: 3%;
         justify-content: center;
         padding-left: 5%;
-        padding-right: 5%;
-        */
+        padding-right: 5%;  
     }
     
     .submit {
@@ -800,7 +799,7 @@
         width: fit-content; */
     }
     
-    .navbar_footer {}
+    
     
     .Copyright {
     
